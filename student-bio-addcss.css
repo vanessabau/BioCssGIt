@@ -1,0 +1,52 @@
+/* CSS sheet for bio webpage*/
+
+h1{
+    width: 1024px; /* set h1 width to 1024 px*/
+    color:#eee; /* set h1 text to light gray*/
+    margin: 0; /* set h1 margin to 0*/
+    text-align: center; /* align h1 text center*/
+    line-height: 50px; /* set h1 line height to 50px*/
+    font-size: 25px; /* set h1 font to 25 px*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /* set h1 font style*/
+    font-weight: lighter; /* adjust h1 font weight*/
+    background-color: #333333; /* set h1 background color*/
+}
+
+h2{
+    font-size: 24px; /*set h2 font size to 24 px*/
+}
+
+.container{
+    width: 984px; /* set container width, subtracted 40 to account for padding so final space container takes up is 1024px to match header*/
+    padding: 20px; /*set padding to help format content in container*/
+    margin: 0 auto; /* set margin to zero auto to position container in the center of the page*/
+    display: inline-block; /* adjust display so content is inline as a block*/
+    background-color: #eee; /*adjust background color*/
+    color: rgb(77, 74, 74); /* adjust font color*/
+}
+
+.main-bio, .bio-image, .contact-info{
+    float: left; /* float main content blocks left*/
+}
+.main-bio{
+    width: 70%; /*set width for main-bio content*/
+}
+
+.bio-image{
+    /*bio-image width and height set in html*/
+    margin-right: 20px; /* set margin-right on photo to format text*/
+}
+
+.contact-info{
+    width: 30%; /*set contact info width*/
+}
+
+ul{
+    /*format font size and line height for list*/
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a{
+    color:#d21034; /* set links color*/
+}
